@@ -1,1 +1,1 @@
-Starting to understand Git.
+Starting to understand Git, hopefully I'll master it.
