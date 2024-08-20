@@ -1,0 +1,223 @@
+    1  1s
+    2  ls
+    3  ls
+    4  ls /data
+    5  ls /
+    6  pwd
+    7  mkdir Learning_unix
+    8  cd Learning_unix
+    9  mkdir Inner_D
+   10  mkdir Outer_D
+   11  cd Outer_D
+   12  mkrdir Inner
+   13  mkdir Inner
+   14  cd Inner
+   15  cd home
+   16  cd Sanele Mavimbela
+   17  cd /home/ubuntu
+   18  cd /
+   19  cd home
+   20  cd Learning_Unix
+   21  cd Learning_unix
+   22  cd Learning_unix
+   23  pwd
+   24  cd home
+   25  cd Sanele Mavimbela
+   26  cd ..
+   27  pwd
+   28  cd ..
+   29  cd ../..
+   30  /$ cd home
+   31  ~
+   32  pwd
+   33  ~
+   34  cd ~/Learning_unix
+   35  pwd
+   36  cd home
+   37  cd ..
+   38  cd Learning_unix
+   39  cd Outer_D
+   40  cd Inner
+   41  cd ..
+   42  cd ../..
+   43  man rmdir
+   44  man man
+   45  cd Learning_unix
+   46  rmdir Inner_D
+   47  ls
+   48  ~
+   49  cd ~
+   50  cd Learning_unix/
+   51  mkdir practice
+   52  pwd
+   53  mkdir practice
+   54  cd practice
+   55  ls
+   56  ls -a
+   57  git init
+   58  ls -a
+   59  git status
+   60  touch newfile.txt
+   61  ls -a
+   62  git status
+   63  git log
+   64  git add newfile.txt
+   65  git status
+   66  git commit -m "initial commit"
+   67  git config --global user.email "mavimbelasanele21@gmail.com
+   68  "
+   69  git config --global user.email "mavimbelasanele21@gmail.com"
+   70  git config --global user.name "Sanele Mavimbela"
+   71  git log
+   72  git commit -m "initial commit"
+   73  git log
+   74  nano newfile.txt
+   75  cat newfile.text 
+   76  cat newfile.txt
+   77  git status
+   78  git commit -m "second commit"
+   79  git add newfile.txt
+   80  git commit -m "second commit"
+   81  nano newfile.txt
+   82  cat newfile.txt
+   83  git add newfile.txt
+   84  git commit -m "third commit"
+   85  git log
+   86  git checkout [200~72c3845e77ec3b2e5219b258da8ef910e5c6490d~
+   87  git checkout 72c3845e77ec3b2e5219b258da8ef910e5c6490d
+   88  cat newfile.txt
+   89  git checkout main
+   90  git checkout master
+   91  cat newfile.txt
+   92  git branch
+   93  git branch milk-flavours
+   94  git branch
+   95  git checkout milk-flovours
+   96  git checkout milk-flavours
+   97  git branch 
+   98  nano milk.md
+   99  git status
+  100  git commit -m "added initial flavours"
+  101  git add milk.md
+  102  git commit -m "added initial flavours"
+  103  git log
+  104  git checkout master
+  105  git branch history
+  106  git checkout history 
+  107  git log
+  108  git branch
+  109  history > history.txt
+  110  git status
+  111  cat history.txt
+  112  git commit -m "added history"
+  113  git add history.txt
+  114  git commit -m "added history"
+  115  git log
+  116  git checkout milk-flavours
+  117  git log
+  118  ls -a
+  119  nano newfile.txt
+  120  git status
+  121  git add newfile.txt 
+  122  git commit -m "random readme changes"
+  123  git checkout history 
+  124  cat newfile.txt
+  125  rm newfile.txt 
+  126  echo "booya" > newfile.text
+  127  rm newfile.text
+  128  echo "booya" > newfile.txt
+  129  git add newfile.txt 
+  130  git commit -m "rewrote newfile"
+  131  git checkout master
+  132  ls
+  133  git log
+  134  git checkout milk-flavours
+  135  ls
+  136  git log
+  137  git checkout history
+  138  ls
+  139  git log
+  140  git checkout master
+  141  git merge milk-flavours
+  142  ls
+  143  git log
+  144  git merge history
+  145  ls
+  146  git log
+  147  git checkout history
+  148  git log
+  149  git checkout milk-flavours
+  150  git log
+  151  git checkout history
+  152  git merge master
+  153  git checkout master
+  154  git log
+  155  git checkout master
+  156  git merge milk-flavours
+  157  git status
+  158  git add newfile.txt
+  159  git status
+  160  git merge milk-flavours
+  161  git commit -m "merge commit"
+  162  git merge milk-flavours
+  163  git merge history
+  164  git log 
+  165  nano newfile.txt
+  166  nano newfile.txt
+  167  git status
+  168  git add newfile.txt
+  169  git commit -m "fixed conflicts"
+  170  git merge --verify
+  171  git mkrdir git-basic-exercises
+  172  git mkdir git-basic-exercises
+  173  mkdir git-basic-exercises
+  174  cd git-basic-exercises
+  175  ls -a
+  176  git init
+  177  ls -a
+  178  git status
+  179  touch README.md
+  180  ls -a
+  181  git status
+  182  git log
+  183  git add README.md
+  184  git status
+  185  git rm --cached README.md
+  186  git status
+  187  git add README.md
+  188  git status
+  189  git commit -m "initial commit"
+  190  git log
+  191  nano README.md
+  192  cat README.md
+  193  git status
+  194  git add README.md
+  195  git commit -m "second commit"
+  196  nano README.md
+  197  git add commit -m "third commit"
+  198  git add README.md
+  199  git commit -m "third commit"
+  200  git log
+  201  git checkout 097ef9c357f8a5e0450d50a7c3b6de3f6d707638
+  202  cat README.md
+  203  git checkout master
+  204  cat README.md
+  205   git branch
+  206  git branch milkshake-flavours
+  207  git branch
+  208  git checkout milk-flavours
+  209  git checkout milkshake-flavours
+  210  git branch
+  211  nano milkshakes.md
+  212  git status
+  213  nano milkshakes.md
+  214  git add milkshakes.md
+  215  git commit -m "added initial flavours"
+  216  git log
+  217  git checkout master
+  218  git log
+  219  git branch history
+  220  git checkout history
+  221  git log
+  222  git branch
+  223  history > history.txt
